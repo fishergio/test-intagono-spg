@@ -9,6 +9,21 @@ $fontDef: 16px;
 
 .header {
     background-color: $yellowColor;
+    .navbar{
+        padding-top: 20px;
+        .navbar-collapse {
+            .nav-item .nav-link{
+                color: $textPrimary;
+                font-size: 20px;
+                padding: 0 1.5em;
+                transition: all .3s ease-in-out;
+                &:hover {
+                   opacity: .8;
+                }
+            }
+            
+        }
+    }
 }
 
 .carousel {
@@ -150,3 +165,17 @@ $fontDef: 16px;
         }
     }
 }
+
+.footer {
+    color: #fff;
+    background-color: $textPrimary;
+    .footer-list {
+        list-style: none;
+        .link a{
+            color: #fff;
+            font-size: $fontDef;
+            text-decoration: none;
+        }
+    }
+}
+
