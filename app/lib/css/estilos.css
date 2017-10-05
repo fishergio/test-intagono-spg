@@ -56,6 +56,7 @@
     padding: 15px 0 10px; }
   .features .features-head .head-descrip {
     color: #313841;
+    font-size: 20px;
     padding-bottom: 10px; }
   .features .features-items {
     padding-top: 15px; }
@@ -75,6 +76,37 @@
           color: #898989;
           text-align: left; }
 
-.footer {
+.suscribe {
   background-color: #000;
   height: 400px; }
+  .suscribe .suscribe-head {
+    display: inline-block;
+    margin-top: 4.5em;
+    padding: 0 40px; }
+    .suscribe .suscribe-head .suscribe-title {
+      color: #fcdb00;
+      margin-bottom: 10px; }
+    .suscribe .suscribe-head .suscribe-descrip {
+      color: #898989;
+      font-size: 20px;
+      padding: 0 5em; }
+  .suscribe .suscribe-form {
+    margin-top: 15px; }
+    .suscribe .suscribe-form .suscribe-input {
+      display: inline-block;
+      width: 650px; }
+    .suscribe .suscribe-form .suscribe-btn {
+      background-color: #fcdb00;
+      color: #010101;
+      font-weight: 500;
+      margin-left: 10px;
+      text-transform: uppercase;
+      cursor: pointer; }
+  .suscribe .social-list {
+    margin-top: 2em;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 45px; }
+    .suscribe .social-list .item-list {
+      color: #fcdb00;
+      margin-right: 20px; }
