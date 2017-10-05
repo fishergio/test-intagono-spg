@@ -1,0 +1,88 @@
+$yellowColor: #fcdb00;
+$bodyColor: #fff;
+$footerColor: black;
+$grayText: #999999;
+$textPrimary: #010101;
+$grayLight: #898989;
+$grayCaption: #555;
+$fontDef: 16px;
+
+.header {
+    background-color: $yellowColor;
+}
+
+.carousel {
+    display: table;
+    width: 100%;
+    background-color: $yellowColor;
+    height: 400px;
+    .carousel-inner {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        .carousel-caption {
+            text-align: left;
+            position: absolute;
+            left: 20px;
+            top: 0;
+        }
+        .caption-title,
+        .caption-resume, {color: $textPrimary;}
+
+        .caption-title  { font-size: $fontDef * 2}
+        .caption-resume { font-size: $fontDef + 4}
+        .caption-descrip { 
+            font-size: $fontDef;
+             color: $grayCaption
+        }
+        .social-list {
+            padding-top: 15px;
+            .list-item {
+                color: $textPrimary;
+                padding-right: $fontDef * 2;
+            }
+        }
+    }
+    .carousel-indicators 
+    {
+        li{
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin: 1px;
+            text-indent: -999px;
+            cursor: pointer;
+            background-color: #F1F1F1;
+            border-radius: 50%;
+        }
+        .active{
+            width: 11px;
+            height: 11px;
+            margin: 0;
+            background-color: #fff;
+        }
+    }
+}
+.caption-img{
+   padding-right: 50px;
+}
+
+/* FEATURES SECTION */
+.feature-box {
+    margin: 40px 0;
+    display: table;
+    vertical-align: middle;
+    .icon {
+        padding: 0 20px 10px 0;
+        color: $textPrimary;
+    }
+    .feature-body {
+        overflow: hidden;
+        .title {
+            color: $textPrimary;
+        }
+        .descrip {
+            color: $grayLight;
+            text-align: left;
+        }
+    }
+}
