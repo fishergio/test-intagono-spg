@@ -46,12 +46,12 @@
           <div class="row">
             <div class="col-md-6 hidden-sm-down">
               <div class="carousel-caption">
-                <h3 class="caption-title">Inspire your inspiration</h3>
-                <p class="caption-resume animated bounce">Simple to use for your app, products showcase and your inspiration</p>
-                <p class="caption-descrip animated bounce">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                <h3 class="caption-title  wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.1s">Inspire your inspiration</h3>
+                <p class="caption-resume wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.1s">Simple to use for your app, products showcase and your inspiration</p>
+                <p class="caption-descrip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
                   Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta
                   lobortis sit</p>
-                <div class="social-list">
+                <div class="social-list wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.1.s">
                   <a class="list-item" target="_blank" href=""><i class="fa fa-apple fa-2x"></i></a>
                   <a class="list-item" target="_blank" href=""><i class="fa fa-android fa-2x"></i></a>
                   <a class="list-item" target="_blank" href=""><i class="fa fa-windows fa-2x"></i></a>
@@ -59,7 +59,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 caption-img animated bounceInRight">
+            <div class="col-md-6 caption-img wow bounceInRight" data-wow-duration="1.5s" data-wow-delay="0.1s">
               <img class="d-block img-fluid pull-right" src="./img/ipad.png" alt="First slide" width="250px">
             </div>
           </div>
@@ -73,7 +73,7 @@
     </div>
   </div>
 
-  <section class="features bounce">
+  <section class="features">
     <div class="container">
       <div class="features-head text-center">
         <h2 class="head-title">Tinyone features</h4>
@@ -83,14 +83,14 @@
 
       <div class="row features-items">
         <div class="col-md-4">
-          <div class="feature-box">
+          <div class="feature-box wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.2s">
             <a class="pull-left" href=""><i class="icon fa fa-bell-o fa-3x"></i></a>
             <div class="feature-body">
               <h4 class="title">Fully Responsive</h3>
                 <p class="descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
             </div>
           </div>
-          <div class="feature-box">
+          <div class="feature-box  wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
             <a class="pull-left" href=""><i class="icon fa fa-code fa-3x"></i></a>
             <div class="feature-body">
               <h4 class="title">HTML3 & CSS3</h3>
@@ -99,14 +99,14 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature-box">
+          <div class="feature-box wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.2s">
             <a class="pull-left" href=""><i class="icon fa fa-lemon-o fa-3x"></i></a>
             <div class="feature-body">
               <h4 class="title">Fully Layered PSD</h3>
                 <p class="descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
             </div>
           </div>
-          <div class="feature-box">
+          <div class="feature-box wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
             <a class="pull-left" href=""><i class="icon fa fa-envelope-o fa-3x"></i></a>
             <div class="feature-body">
               <h4 class="title">Email Template</h3>
@@ -115,14 +115,14 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature-box">
+          <div class="feature-box wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.2s">
             <a class="pull-left" href=""><i class="icon fa fa-folder-o fa-3x"></i></a>
             <div class="feature-body">
               <h4 class="title">Font Awesome Icons</h3>
                 <p class="descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
             </div>
           </div>
-          <div class="feature-box">
+          <div class="feature-box wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
             <a class="pull-left" href=""><i class="icon fa fa-bookmark-o fa-3x"></i></a>
             <div class="feature-body">
               <h4 class="title">Free to download</h3>
@@ -134,7 +134,7 @@
     </div>
   </section>
 
-  <section class="suscribe animated fadeInDown">
+  <section class="suscribe">
     <div class="container">
       <div class="suscribe-head text-center">
         <h2 class="suscribe-title">Keep in touch with us</h4>
@@ -205,7 +205,12 @@
 
 
   <script src="./lib/bootstrap/js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./lib/wowjs/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>

@@ -122,10 +122,14 @@
 
 .footer {
   color: #fff;
-  background-color: #010101; }
+  background-color: #010101;
+  padding-bottom: 3.2em; }
   .footer .footer-list {
     list-style: none; }
     .footer .footer-list .link a {
       color: #fff;
       font-size: 16px;
-      text-decoration: none; }
+      text-decoration: none;
+      transition: all .3s ease-in-out; }
+      .footer .footer-list .link a:hover {
+        color: #fcdb00; }
