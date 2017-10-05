@@ -39,7 +39,7 @@ const gulp = require('gulp'),
                 files: files
             }
         },
-        sass: { outputStyle: 'compressed' },
+        sass: { outputStyle: 'uncompressed' },
         uncss: { html: [`${dir.dist}/*.html`] },
         autoprefixer: {
             browsers: ['last 5 versions'],
