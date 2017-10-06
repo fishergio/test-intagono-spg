@@ -19,8 +19,14 @@
 @media only screen and (max-width: 767px) {
   body {
     background-color: green; }
+  .navbar-toggler {
+    border: none; }
   .carousel-inner {
     height: 420px; }
+  .caption-title, .caption-descrip, .caption-resume {
+    display: none; }
+  .carousel-caption .social-list {
+    display: none; }
   .suscribe {
     height: 100%; }
   .suscribe-descrip {
@@ -31,6 +37,7 @@
     margin: 0;
     padding: 2em 1em; }
   .footer {
+    padding-left: 25%;
     padding-top: 2em;
     justify-content: center !important; } }
 
